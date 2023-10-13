@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="main">
+        <div class="calculator">
+            <div>
+                <input id="inputresult" type="text" placeholder="0" readonly>
+            </div>
+
+            <div>
+                <button class="AC"  onclick="clrs()" >AC</button>
+                <button class="DEL" onclick="del()"  >DEL</button>
+
+
+            </div>
+            <div>
+                <button onclick="calresult('7')"  >7</button>
+                <button onclick="calresult('8')"  >8</button>
+                <button onclick="calresult('9')"  >9</button>
+                <button onclick="calresult('x')"  >X</button>
+            </div>
+
+            <div>
+                <button onclick="calresult('4')"  >4</button>
+                <button onclick="calresult('5')"  >5</button>
+                <button onclick="calresult('6')"  >6</button>
+                <button onclick="calresult('+')"  >+</button>
+            </div>
+
+            <div>
+                <button onclick="calresult('1')" > 1</button>
+                <button  onclick="calresult('2')" >2</button>
+                <button  onclick="calresult('3')" >3</button>
+                <button  onclick="calresult('-')" >-</button>
+            </div>
+            <div>
+                <button onclick="calresult('0')"  >0</button>
+                <button  onclick="calresult('.')"  >.</button>
+                <button  onclick="allcalculate()" >=</button>
+                <button onclick="calresult('%')"  >  %</button>
+
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
